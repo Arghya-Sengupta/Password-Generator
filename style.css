@@ -1,0 +1,71 @@
+*
+{
+	font-size: 20px;
+	margin: 0px;
+}
+
+h1
+{
+	padding: 40px;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.center
+{
+	position: relative;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	border: 0px;
+	padding: 0px;
+}
+
+table
+{
+	border: 0px;
+}
+
+td
+{
+	padding: 5px;
+	width: 300px;
+	text-align: left;
+}
+
+textarea
+{
+	text-align: center;
+	vertical-align: middle;
+	resize: none;
+	font-weight: bold;
+}
+
+#displayPassword
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 22px;
+	border: 3px solid #000000;
+}
+
+button
+{
+	font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+	background: #f0f0f0;
+	margin:10px;
+    padding: 10px 25px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+button:hover
+{
+	background: #e0e0e0;
+}

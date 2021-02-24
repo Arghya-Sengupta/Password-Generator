@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Password Generator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="center"><h1>Password Generator</h1>
+		</div>
+		
+		<center>
+			<table>
+				<tr>
+					<td>Password Length:</td>
+					<td>
+						<textarea readonly rows="1" cols="2" id="displayLen"></textarea>
+						<input type="range" min="10" max="100" value="20" class="slider" id="pLength">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Include Uppercase Characters:</td>
+					<td>
+						<input type="checkbox" id="uppercase" checked>
+						<label>(e.g. ABCDEFGH)</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Include Numbers:</td>
+					<td>
+						<input type="checkbox" id="numbers" checked>
+						<label>(e.g. 01234567)</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Include Special Symbols:</td>
+					<td>
+						<input type="checkbox" id="special" checked>
+						<label>(e.g. !@#$%^&*)</label>
+					</td>
+				</tr>				
+			</table>
+		</center>
+		
+		<div class="result center">
+			<textarea readonly rows="1" cols="105" id="displayPassword"></textarea>
+			<button type="button" onclick="Generate()">Generate Password</button>
+			<button type="button" onclick="Copy()" id="copyButton">Copy</button>
+		</div>
+		
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
