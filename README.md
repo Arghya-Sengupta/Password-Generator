@@ -1,4 +1,4 @@
-#Password Generator
+# Password Generator
 
 ## Preview
 You can see the live website here:
