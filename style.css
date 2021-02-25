@@ -15,10 +15,9 @@ h1
 {
 	position: relative;
 	text-align: center;
-	margin: auto;
-	width: 100%;
-	border: 0px;
-	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
 }
 
 table
@@ -29,8 +28,9 @@ table
 td
 {
 	padding: 5px;
-	width: 300px;
+	width: auto;
 	text-align: left;
+	border: 0px;
 }
 
 textarea
