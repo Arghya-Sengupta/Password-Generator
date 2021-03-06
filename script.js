@@ -3,7 +3,7 @@ var output = document.getElementById("displayLen");
 output.innerHTML = slider.value;
 var Password = "";
 var pLength = 20;
-color = "#77eb34";
+var color = "#77eb34";
 
 slider.oninput = function()
 {
